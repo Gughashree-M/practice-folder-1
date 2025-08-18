@@ -1,0 +1,113 @@
+body {
+    font-family: arial, sans-serif0;
+    background-color: lightgoldenrodyellow;
+    margin: 50px;
+    padding: 150px;
+    height: 100px;
+    margin: 5px;
+    border: 5px;
+
+
+
+}
+
+/* .form element{
+    height: 50px;
+    width: 200px;
+
+} */
+
+
+.cointainer {
+    max-width: 50px;
+    padding: 10px;
+    height: 150px;
+    border-radius: 5px;
+    /* text-align: left; */
+
+
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    color: black;
+
+}
+
+/* form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} */
+input {
+    text-align: left;
+
+}
+
+label {
+    display: inline-block;
+    font-size: 15px;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    color: rgb(20, 20, 30);
+    align-items: right;
+}
+
+option {
+
+    text-align: center;
+    height: auto;
+}
+
+#student Photo {
+    display: inline;
+    background-color: aliceblue;
+
+}
+
+input {
+    padding: 10px;
+    margin: 8px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 15px;
+
+    align-items: right;
+}
+
+select {
+    padding: 10px;
+    margin: 8px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 15px;
+
+    /* align-items: right; */
+
+}
+
+textarea {
+
+
+    padding: 10px;
+    margin: 8px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 15px;
+
+    align-items: right;
+
+}
+
+input[type="radio"] {
+    background-color: aliceblue;
+    color: bisque;
+    padding: 10px 20px;
+    margin-right: 10px;
+    display: inline-block;
+
+}

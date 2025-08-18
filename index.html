@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Student Registration Form</title>
+
+</head>
+
+<body>
+    <div class="cointainer">
+        <h1>Student Registration Form</h1>
+        <form action="">
+            <!-- <table class="form element"> -->
+
+            <label for="roll no">Roll no : </label>
+            <input type="text" name="roll no" align-items="right" required> <br>
+
+            <label for="stud name">Student Name: </label>
+            <input type="text" name="studentname" required> <br>
+
+            <label for="fathername">Father's Name :</label>
+            <input type="text" required>
+
+            <label for="dob">Date of birth :</label>
+            <input type="date" required>
+
+            <label for="phoneno">phone no : </label>
+            <input type="text" value="+91" required>
+            <!-- <input type="text" name="mobile"> -->
+
+            <label for="Emailid">Email id: </label>
+            <input type="email" required>
+
+            <label for="Password">Password: </label>
+            <input type="password" required>
+
+
+            <label class="option">Gender: </label>
+            <div>
+                <input type="radio" name="Gender" value="male">male
+                <input type="radio" name="Gender" value="Female">Female
+            </div>
+
+            <label for="department">Department: </label>
+            <div>
+                <select id="Department" required>
+                    <option value="none">-----------select department-----------</option>
+                    <option value="IT">INFORMATION TECHONOLOGY </option>
+                    <option value="CSE">COMPUTER SCIENCE ENGINEERING</option>
+                    <OPTIon value="EEE">ELECTRICAL AND ELECCTRONICS ENGINERING</OPTIon>
+                    <option value="ECE"> ELECTRICAL AND ELECCTRONICS ENGINEERING</OPTIon>
+                    <option value="CIVIL">CIVIL</option>
+            </div>
+            </select>
+
+
+            <label for="course">Course : </label>
+            <select id="course" required>
+
+                <option value="none">-------Choose your Course------------</option>
+                <option value="B.Tech">B.Tech </option>
+                <option value="M.Tech">M.Tech</option>
+                <OPTIon value="Phd">MBA</OPTIon>
+
+            </select>
+
+            <label for="stud Photo">Student Photo: </label>
+            <input type="file" name=" Photo">
+
+            <label for="city">city : </label>
+            <input type="text" name="city" required>
+
+            <label>Address : </label>
+            <textarea name="address" rows="4" required></textarea>
+
+            <div>
+                <button type="submit"> Register </button>
+            </div>
+        </form>
+
+
+    </div>
+</body>
+</table>>
+
+
+</html>
