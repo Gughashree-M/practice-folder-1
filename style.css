@@ -6,20 +6,16 @@ body {
     height: 100px;
     margin: 5px;
     border: 5px;
+    display: flex;
+    justify-content: center;
 
 
 
 }
 
-/* .form element{
-    height: 50px;
-    width: 200px;
-
-} */
-
 
 .cointainer {
-    max-width: 50px;
+
     padding: 10px;
     height: 150px;
     border-radius: 5px;
@@ -37,13 +33,10 @@ h1 {
 
 }
 
-/* form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-} */
-input {
+
+
+*/ input {
     text-align: left;
 
 }
@@ -51,8 +44,6 @@ input {
 label {
     display: inline-block;
     font-size: 15px;
-    /* margin-top: 10px;
-    margin-bottom: 10px; */
     color: rgb(20, 20, 30);
     align-items: right;
 }
@@ -103,11 +94,6 @@ textarea {
 
 }
 
-input[type="radio"] {
-    background-color: aliceblue;
-    color: bisque;
-    padding: 10px 20px;
-    margin-right: 10px;
-    display: inline-block;
-
+.radio{
+    display: block;
 }

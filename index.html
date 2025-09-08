@@ -11,79 +11,119 @@
 <body>
     <div class="cointainer">
         <h1>Student Registration Form</h1>
-        <form action="">
-            <!-- <table class="form element"> -->
+        <table>
+            <form action="">
+                <tr>
+                    <!-- ellamey label and input same div la podanum intha maari ipo na table maari potu irruken paathuko -->
+                    <td>
+                        <label for="roll no">Roll no : </label>
+                    </td>
+                    <td>
+                        <input type="text" name="roll no" align-items="right" required>
+                    </td>
+                </tr>
 
-            <label for="roll no">Roll no : </label>
-            <input type="text" name="roll no" align-items="right" required> <br>
+                <tr>
+                    <td>
+                        <label for="stud name">Student Name: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="studentname" required>
+                    </td>
+                </tr>
 
-            <label for="stud name">Student Name: </label>
-            <input type="text" name="studentname" required> <br>
+                <tr>
+                    <td>
+                        <label for="fathername">Father's Name :</label>
+                    </td>
+                    <td> <input type="text" required></td>
+                </tr>
 
-            <label for="fathername">Father's Name :</label>
-            <input type="text" required>
+                <tr>
+                    <td><label for="dob">Date of birth :</label></td>
+                    <td><input type="date" required></td>
+                </tr>
 
-            <label for="dob">Date of birth :</label>
-            <input type="date" required>
+                <tr>
+                    <td><label for="phoneno">phone no : </label></td>
+                    <td><input type="text" value="+91" required></td>
+                    <!-- <input type="text" name="mobile"> -->
+                </tr>
 
-            <label for="phoneno">phone no : </label>
-            <input type="text" value="+91" required>
-            <!-- <input type="text" name="mobile"> -->
+                <tr>
+                    <td><label for="Emailid">Email id: </label></td>
+                    <td><input type="email" required></td>
+                </tr>
 
-            <label for="Emailid">Email id: </label>
-            <input type="email" required>
-
-            <label for="Password">Password: </label>
-            <input type="password" required>
-
-
-            <label class="option">Gender: </label>
-            <div>
-                <input type="radio" name="Gender" value="male">male
-                <input type="radio" name="Gender" value="Female">Female
-            </div>
-
-            <label for="department">Department: </label>
-            <div>
-                <select id="Department" required>
-                    <option value="none">-----------select department-----------</option>
-                    <option value="IT">INFORMATION TECHONOLOGY </option>
-                    <option value="CSE">COMPUTER SCIENCE ENGINEERING</option>
-                    <OPTIon value="EEE">ELECTRICAL AND ELECCTRONICS ENGINERING</OPTIon>
-                    <option value="ECE"> ELECTRICAL AND ELECCTRONICS ENGINEERING</OPTIon>
-                    <option value="CIVIL">CIVIL</option>
-            </div>
-            </select>
+                <tr>
+                    <td><label for="Password">Password: </label></td>
+                    <td><input type="password" required></td>
+                </tr>
 
 
-            <label for="course">Course : </label>
-            <select id="course" required>
 
-                <option value="none">-------Choose your Course------------</option>
-                <option value="B.Tech">B.Tech </option>
-                <option value="M.Tech">M.Tech</option>
-                <OPTIon value="Phd">MBA</OPTIon>
+                <tr>
+                   <td> <label class="option">Gender: </label></td>
+                    <!-- label ulla irrukanum mela potu irruntha -->
+                    <td class="radio"><input type="radio" name="Gender" value="male">male</td>
+                    <td class="radio"><input type="radio" name="Gender" value="Female">Female</td>
+                </tr>
 
-            </select>
 
-            <label for="stud Photo">Student Photo: </label>
-            <input type="file" name=" Photo">
+                <tr>
+                    <td><label for="department">Department: </label></td>
+                    <!-- label ulla irrukanum mela potu irruntha -->
+                   <td> <select id="Department" required>
+                        <option value="none">-----------select department-----------</option>
+                        <option value="IT">INFORMATION TECHONOLOGY </option>
+                        <option value="CSE">COMPUTER SCIENCE ENGINEERING</option>
+                        <OPTIon value="EEE">ELECTRICAL AND ELECCTRONICS ENGINERING</OPTIon>
+                        <option value="ECE"> ELECTRICAL AND ELECCTRONICS ENGINEERING</OPTIon>
+                        <option value="CIVIL">CIVIL</option></td>
+                    </select>
+                    <!-- select um velila irrunthuchu ulla irrukanum -->
+                </div>
 
-            <label for="city">city : </label>
-            <input type="text" name="city" required>
 
-            <label>Address : </label>
-            <textarea name="address" rows="4" required></textarea>
 
-            <div>
-                <button type="submit"> Register </button>
-            </div>
-        </form>
+                <tr>
+                    <td><label for="course">Course : </label></td>
+                    <td><select id="course" required>
 
+                        <option value="none">-------Choose your Course------------</option>
+                        <option value="B.Tech">B.Tech </option>
+                        <option value="M.Tech">M.Tech</option>
+                        <OPTIon value="Phd">MBA</OPTIon></td>
+
+                    </select>
+                </tr>
+
+                <tr>
+                   <td> <label for="stud Photo">Student Photo: </label></td>
+                   <td> <input type="file" name=" Photo"></td>
+
+                </tr>
+
+                <tr>
+                   <td> <label for="city">city : </label></td>
+                    <td><input type="text" name="city" required></td>
+                </tr>
+
+                <tr>
+                    <td><label>Address : </label></td>
+                    <td><textarea name="address" rows="4" required></textarea></td>
+                </tr>
+
+                <tr>
+                   <td> <button type="submit" > Register </button></td>
+                </tr>
+            </form>
+        </table>
 
     </div>
+
 </body>
-</table>>
+
 
 
 </html>

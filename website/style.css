@@ -1,0 +1,22 @@
+ .nav-design{
+    display: flex;
+    
+}
+
+.inline{
+    display: inline;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+display: flex;
+padding: 10px;
+} 
+
+
+

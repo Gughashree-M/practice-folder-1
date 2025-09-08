@@ -1,0 +1,69 @@
+<!-- <html>
+<input id="inputbox" onkeyup="update()">
+ <button onclick="update()">click</button> -->
+<!-- <h1 id="result"></h1>
+
+<script>
+
+var inputbox=document.getElementById("inputbox")
+var result=document.getElementById("result")
+
+
+function update(){
+
+    result.textContent=inputbox.value
+}
+
+
+</script>
+</html> -->
+
+
+<!-- <button onlclick="update()">Add</button>
+<div id="result"></div>
+
+
+<script>
+ var div=document.getElementById("result")
+ function update(){
+var listitem=document.createElement("h1")
+listitems.textcontent="hello"
+div.append(listitem)
+
+ }
+
+
+</script> -->
+
+<!-- <h1 id="result">
+    Name
+</h1>
+<button onclick="update(event)"> John </button>
+<button onclick="update(event)"> praveen</button>
+<button onclick="update(event)"> karthik </button>
+
+<script>
+    var h1 = document.getElementById("result");
+    function update(event) {
+        h1.textContent = event.target.textContent
+
+    }
+
+</script> -->
+
+<h1 onclick="deleteitem(event)">one</h1>
+<h1 onclick="deleteitem(event)">two</h1>
+<h1 onclick="deleteitem(event)">Three</h1>
+<h1 onclick="deleteitem(event)">Four</h1>
+<h1 onclick="deleteitem(event)">Five</h1>
+<h1 onclick="deleteitem(event)">six</h1>
+
+
+<script>
+    
+    function deleteitem(event) {
+       event.target.remove()
+
+    
+    }
+</script>
